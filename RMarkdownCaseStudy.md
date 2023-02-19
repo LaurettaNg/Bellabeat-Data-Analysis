@@ -1,9 +1,12 @@
 # Analysis of Fitbit data in R
 
+```
 title: "Bellabeat Case Study"
 author: "Lauretta Ngere"
 date: "2023-02-13"
 output: html_document
+```
+
 ---
 
 
