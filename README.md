@@ -1,6 +1,10 @@
 # Bellabeat-Data-Analysis
 Analysis of Fitbit data to gain insights into consumer usage and make recommendations to Bellabeat
 
+![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/Fitbit.png?raw=true)
+
+---
+
 
 ## Case study – How Can a Wellness Company Play It Smart?
 Company – Bellabeat: a high-tech manufacturer of health-focused products for women. They are a successful small company but have potential to become a larger player in the global smart device market
