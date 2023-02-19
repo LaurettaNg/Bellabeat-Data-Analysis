@@ -59,6 +59,7 @@ The datasets were joined to create a new dataset called WellnessDataMerged
 
 All SQL queries used in the analysis can be found [here](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/queries.sql)
 
+
 Merged dataset was then checked against against the individual dataset to ensure data was correctly merged 
 
 Dataset was further explored for more insights, giving answers to the following questions:
@@ -75,7 +76,7 @@ Dataset was further explored for more insights, giving answers to the following 
     - What percentage of the BMI entries is considered overweight (i.e above 24.9)?
 7.	 Is the sum of the individual time categories equal to the Total   Time? Note that the total time recorded should not exceed 1440 mins (24 hours) for a day
 
-### R
+### R Analysis
 
 Merged data was then loaded into R for summary statistics and visualization
 
