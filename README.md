@@ -50,6 +50,15 @@ Each column was checked for errors
 3 datasets were uploaded into big query for merging. Schema for each table was automatically detected. 
 Number of users in each dataset was checked
 The datasets were joined to create a new dataset called WellnessDataMerged
+
+#### SQL query to merge datasets
+ ![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/SQL%20Query%20to%20Merge%20datasets.jpg?raw=true)
+
+#### Schema of the merged dataset
+![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/Merged_Data%20Schema.jpg?raw=true)
+
+All SQL queries used in the analysis can be found [here](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/queries.sql)
+
 Merged dataset was then checked against against the individual dataset to ensure data was correctly merged 
 
 Dataset was further explored for more insights, giving answers to the following questions:
@@ -60,6 +69,7 @@ Dataset was further explored for more insights, giving answers to the following 
 4.	Is the sum of the individual distance categories equal to the Total Distance?
 5.	What is the ratio of TimeAsleep to TotalTimeInBed i.e what percentage of time spent in bed was the individual in sleep mode?
 6.	Based on CDC interpretation,
+    ![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/BMI%20.jpg?raw=true)
     - What percentage of the BMI entries is in the healthy range?
     - What percentage of the BMI entries is considered underweight (i.e below 18.5)?
     - What percentage of the BMI entries is considered overweight (i.e above 24.9)?
@@ -68,6 +78,17 @@ Dataset was further explored for more insights, giving answers to the following 
 ### R
 
 Merged data was then loaded into R for summary statistics and visualization
+
+#### Relationship between TotalSteps and TotalDistance
+![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/TotalSteps%20vs%20TotalDistance.png?raw=true)
+
+#### Relationship between TotalSteps and Calories
+![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/TotalSteps%20vs%20Calories.png?raw=true)
+
+#### Relationship between TotalDistance and Calories
+![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/TotalDistance%20vs%20Calories.png?raw=true)
+
+---
 
 ### Summary
  Average total steps per day was 7,652
