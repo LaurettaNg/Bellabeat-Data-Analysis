@@ -11,16 +11,17 @@ Company – Bellabeat: a high-tech manufacturer of health-focused products for w
 
 My Role – Junior Data Analyst (Joined 6 months ago) on the marketing analyst team
 
-Task – Focus on one of Bellabeat’s products and Analyanalyze smart device data to gain insight into how customers are using their smart devices
+Task – Focus on one of Bellabeat’s products and analyze smart device data to gain insight into how customers are using their smart devices
 
 Present analysis and high-level recommendations to the executive team
 
 ## Summary of Business Task
-Bellabeat is a high-tech manufacturing company, founded in 2013 that manufactures health-focused smart products.  The company seeks more opportunities for growth and expansion. The task is to use existing data (Fitbit Fitness Tracker Data) on the use of smart devices and gain insight into consumer usage. These insights are then to be applied to one of Bellabeat products in order to provide high-level recommendations to improve their market strategy
+Bellabeat is a high-tech manufacturing company, founded in 2013 that manufactures health-focused smart products.  The company seeks more opportunities for growth and expansion. The task is to use existing data (Fitbit Fitness Tracker Data) on the use of smart devices and gain insights into consumer usage. These insights are then to be applied to one of Bellabeat products in order to provide high-level recommendations to improve their market strategy
+
 Stakeholders
-•	Urška Sršen - Bellabeat cofounder and Chief Creative Officer
-•	Sando Mur - Bellabeat cofounder and key member of Bellabeat executive team
-•	Bellabeat Marketing Analytics team
+-	Urška Sršen - Bellabeat cofounder and Chief Creative Officer
+-	Sando Mur - Bellabeat cofounder and key member of Bellabeat executive team
+-	Bellabeat Marketing Analytics team
 
 
 ### Data source
@@ -68,8 +69,8 @@ Merged dataset was then checked against against the individual dataset to ensure
 
 Dataset was further explored for more insights, giving answers to the following questions:
 
-1.	How many day entries did individual’s sleep for longer than 8 hours (480 mins)
-2.	How many day entries did individual’s sleep for less than 5 hours (300 mins)
+1.	How many day entries did individual’s sleep for longer than 8 hours (480 mins)?
+2.	How many day entries did individual’s sleep for less than 5 hours (300 mins)?
 3.	How many day entries did individual’s sleep for between 5 and 8 hours?
 4.	Is the sum of the individual distance categories equal to the Total Distance?
 5.	What is the ratio of TimeAsleep to TotalTimeInBed i.e what percentage of time spent in bed was the individual in sleep mode?
@@ -78,7 +79,7 @@ Dataset was further explored for more insights, giving answers to the following 
     - What percentage of the BMI entries is in the healthy range?
     - What percentage of the BMI entries is considered underweight (i.e below 18.5)?
     - What percentage of the BMI entries is considered overweight (i.e above 24.9)?
-7.	 Is the sum of the individual time categories equal to the Total   Time? Note that the total time recorded should not exceed 1440 mins (24 hours) for a day
+7.	 Is the sum of the individual time categories equal to the Total Time? Note that the total time recorded should not exceed 1440 mins (24 hours) for a day
 
 ### R Analysis
 
@@ -92,6 +93,8 @@ Merged data was then loaded into R for summary statistics and visualization
 
 #### Relationship between TotalDistance and Calories
 ![image](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/images/TotalDistance%20vs%20Calories.png?raw=true)
+
+All R commands used in the analysis can be found [here](https://github.com/LaurettaNg/Bellabeat-Data-Analysis/blob/main/RMarkdownCaseStudy.md)
 
 ---
 
@@ -115,7 +118,9 @@ Merged data was then loaded into R for summary statistics and visualization
 
  ### Recommendations for Bellabeat
 Upon exploring and analyzing the Fitbit tracker data, the major recommendation would be that Bellabeat devices and app be programmed in such a way that very accurate data is collected. The more accurate the data, the more insights users can draw from their lifestyle habits and make necessary improvements if required. Bad data will always lead to bad/incorrect conclusions. In the light of this, the following are suggested:
+
 Demographics: It would be great for the Bellabeat app to take record of specific demographics of the users such as Gender, Age, Ethnicity, Worklife etc. This will form a better basis for interpreting data and avoiding some level of bias. 
+
 Device Sync: It is very important that the Bellabeat devices have seamless sync with the Bellabeat app. This would ensure accuracy of data compilations and storage. We would also suggest working this out in such a way to avoid manual data entry by users to reduce human error.
 
 Goal setting: Considering that the main goal of the Bellabeat app and devices is to help users develop more healthy lifestyle habits for better health, users could have the opportunity to set target goals and measure how close or far they are from achieving set goals. It could also be beneficial to users to have threshold checks in place for when users exceed the healthy thresholds for their peculiar health and wellness status. 
