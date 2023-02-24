@@ -36,83 +36,83 @@ AND Activity.ActivityDate = Weight.Date
 -- Check the merged dataset against the individual datasets
 SELECT 
     count(BMI) 
-FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` ;
+
 SELECT 
     count(BMI)  
-FROM `wellness-case-study-377401.Wellness_data.Weight` 
+FROM `wellness-case-study-377401.Wellness_data.Weight` ;
 
 SELECT 
     avg(TotalMinutesAsleep)  
-FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` ;
+
 SELECT 
     avg(TotalMinutesAsleep)  
-FROM `wellness-case-study-377401.Wellness_data.Sleep` 
+FROM `wellness-case-study-377401.Wellness_data.Sleep` ;
 
 SELECT 
     count(TotalTimeInBed)  
 FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+
 SELECT 
     count(TotalTimeInBed)  
-FROM `wellness-case-study-377401.Wellness_data.Sleep` 
+FROM `wellness-case-study-377401.Wellness_data.Sleep` ;
 
 SELECT
      avg(WeightPounds)  
 FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+
 SELECT 
     avg(WeightPounds)  
-FROM `wellness-case-study-377401.Wellness_data.Weight`
+FROM `wellness-case-study-377401.Wellness_data.Weight`;
 
 SELECT 
     avg(WeightKg)  
 FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+
 SELECT
      avg(WeightKg)  
-FROM `wellness-case-study-377401.Wellness_data.Weight`
+FROM `wellness-case-study-377401.Wellness_data.Weight`;
 
 SELECT 
     count(distinct BMI)  
-FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` ;
+
 SELECT 
     count(distinct BMI)  
-FROM `wellness-case-study-377401.Wellness_data.Weight` 
+FROM `wellness-case-study-377401.Wellness_data.Weight` ;
 
 SELECT 
     count(distinct TotalMinutesAsleep)  
 FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+
 SELECT 
     count(distinct TotalMinutesAsleep)  
-FROM `wellness-case-study-377401.Wellness_data.Sleep` 
+FROM `wellness-case-study-377401.Wellness_data.Sleep` ;
 
 SELECT 
     count(distinct TotalTimeInBed)  
 FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+
 SELECT 
     count(distinct TotalTimeInBed)  
-FROM `wellness-case-study-377401.Wellness_data.Sleep` 
+FROM `wellness-case-study-377401.Wellness_data.Sleep` ;
 
 SELECT 
     count(distinct WeightPounds)  
-FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` ;
+
 SELECT
      count(distinct WeightPounds)  
-FROM `wellness-case-study-377401.Wellness_data.Weight`
+FROM `wellness-case-study-377401.Wellness_data.Weight`;
 
 SELECT 
     count (distinct WeightKg)  
-FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` 
-UNION ALL
+FROM `wellness-case-study-377401.Wellness_data.WellnessDataMerged` ;
+
 SELECT 
     count ( distinct WeightKg)  
-FROM `wellness-case-study-377401.Wellness_data.Weight`
+FROM `wellness-case-study-377401.Wellness_data.Weight`;
 
 
 --How many day entries did individual’s sleep for longer than 8 hours (480 mins)
